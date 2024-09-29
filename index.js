@@ -28,9 +28,9 @@ var arr3 = ['Delicious.png', 'Delicious1.png', 'Delicious2.png', 'Delicious3.png
 async function next(delayTime, e) {
   for (let i = 0; i < e; i++) {
     i > 5 ? i = 0 : i
-    document.querySelector('.project-image--1').src = '/img2/' + arr[i]
-        document.querySelector('.project-image--2').src = '/img2/' + arr2[i]
-        document.querySelector('.project-image--3').src = '/img2/' + arr3[i]
+    document.querySelector('.project-image--1').src = './img2/' + arr[i]
+        document.querySelector('.project-image--2').src = './img2/' + arr2[i]
+        document.querySelector('.project-image--3').src = './img2/' + arr3[i]
       await new Promise((resolve) => setTimeout(resolve, delayTime));
     }
     
