@@ -574,35 +574,6 @@ margin-bottom: 2rem;
 
 
 
-
-@media only screen and (min-width: 79.25em) {
-    html{
-    font-size: 85.4%;
-}
-
-.main__2 {
-    display: grid;
-    padding: 2rem 1rem;
-    justify-content: center;
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 6rem 9rem;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 2rem 2rem;
-}
-
-.main__div-2-img {
-    width: 31rem;
-}
-
-.main {
-    padding: 2rem;
-    text-align: center;
-    color: #ffffff;
-    background-color: rgb(133, 133, 133);
-}
-}
-
-
 @media only screen and (max-width: 69.25em) {
 
     /* viewpot = 1044 */
