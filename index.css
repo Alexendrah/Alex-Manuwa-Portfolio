@@ -193,6 +193,7 @@ background-color: rgb(133, 133, 133);
 padding: 1rem 1rem;
 height: 90vh;
 place-content: center;
+      display: grid;
 }
 
 .header-2{
